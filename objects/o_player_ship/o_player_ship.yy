@@ -1,0 +1,81 @@
+{
+    "id": "94ef5a48-a979-4dd1-b056-2aaa14251cc0",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "o_player_ship",
+    "eventList": [
+        {
+            "id": "a63272d6-827e-4f09-b83e-e7f3f23050f0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "94ef5a48-a979-4dd1-b056-2aaa14251cc0"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "c86bfbe1-e8cd-47f6-a79a-65d3fb82313c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "max_speed",
+            "varType": 1
+        },
+        {
+            "id": "4aed0be9-acf5-4a41-872e-395ed00c159e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.2",
+            "varName": "acceleration",
+            "varType": 0
+        },
+        {
+            "id": "21abfa79-6be1-47bd-9e87-d37e2f17eeb1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.05",
+            "varName": "friction_amount",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "5f8d2427-a6d6-4691-9aa2-16eadb883ade",
+    "visible": true
+}
