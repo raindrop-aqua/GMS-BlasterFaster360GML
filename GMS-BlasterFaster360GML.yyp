@@ -571,6 +571,25 @@
             }
         },
         {
+            "Key": "af0cf681-284f-43fa-951c-4b6d3fd0234a",
+            "Value": {
+                "id": "0e63b598-719a-4c2b-aa30-4ae15fe3bba4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/bounce_off_screen_edge\/bounce_off_screen_edge.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b370fc6d-780d-47fa-9f8d-c3892e1376bf",
             "Value": {
                 "id": "3f5e64b4-0f9d-4dc1-8c6c-9fecf0a00a9b",
@@ -819,7 +838,7 @@
         }
     ],
     "script_order": [
-        
+        "af0cf681-284f-43fa-951c-4b6d3fd0234a"
     ],
     "tutorial": ""
 }
