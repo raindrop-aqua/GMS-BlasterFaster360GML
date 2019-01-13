@@ -1,50 +1,33 @@
 {
-    "id": "94ef5a48-a979-4dd1-b056-2aaa14251cc0",
+    "id": "5678a426-36d1-4d55-a875-7cfd79368a43",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_player_ship",
+    "name": "o_explosion_chunk",
     "eventList": [
         {
-            "id": "a63272d6-827e-4f09-b83e-e7f3f23050f0",
+            "id": "146e3f61-683a-41ec-a741-6569d4a662a9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "5678a426-36d1-4d55-a875-7cfd79368a43"
+        },
+        {
+            "id": "a329993e-9642-45b0-8890-e14b5206a3f7",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "94ef5a48-a979-4dd1-b056-2aaa14251cc0"
-        },
-        {
-            "id": "bf13bc66-e493-4922-8c97-cdb2b89f6545",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 3,
-            "m_owner": "94ef5a48-a979-4dd1-b056-2aaa14251cc0"
+            "m_owner": "5678a426-36d1-4d55-a875-7cfd79368a43"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": [
-        {
-            "id": "14e66673-6900-4d23-a898-c61e08cb0f5c",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "1cd6f0c2-47b2-4c13-aef7-f7a307faf404",
-            "propertyId": "fa85c71f-b076-4ef4-905b-332033fd210d",
-            "value": "4"
-        },
-        {
-            "id": "363f76bc-7045-4beb-91d5-13d5df8e9b92",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "1cd6f0c2-47b2-4c13-aef7-f7a307faf404",
-            "propertyId": "1dadf65b-c587-40d1-9748-4832c2d4e63e",
-            "value": "4"
-        }
-    ],
-    "parentObjectId": "1cd6f0c2-47b2-4c13-aef7-f7a307faf404",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -60,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "c86bfbe1-e8cd-47f6-a79a-65d3fb82313c",
+            "id": "85d3c134-8bcf-4c45-84bb-aa30c9d6dbbc",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -69,12 +52,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "4",
-            "varName": "max_speed",
-            "varType": 1
+            "value": "random(360);",
+            "varName": "direction",
+            "varType": 4
         },
         {
-            "id": "4aed0be9-acf5-4a41-872e-395ed00c159e",
+            "id": "e4f2465f-c8af-425c-b3ca-c6439cd098d7",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -83,12 +66,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.2",
-            "varName": "acceleration",
-            "varType": 0
+            "value": "random_range(2, 4);",
+            "varName": "speed",
+            "varType": 4
         },
         {
-            "id": "21abfa79-6be1-47bd-9e87-d37e2f17eeb1",
+            "id": "1815575f-75ed-4c3c-a792-da3c122ea52a",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -97,12 +80,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.05",
-            "varName": "friction_amount",
-            "varType": 0
+            "value": "random_range(2, 20);",
+            "varName": "alarm[0]",
+            "varType": 4
         }
     ],
     "solid": false,
-    "spriteId": "5f8d2427-a6d6-4691-9aa2-16eadb883ade",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
