@@ -1,48 +1,28 @@
 {
-    "id": "1cd6f0c2-47b2-4c13-aef7-f7a307faf404",
+    "id": "0955274e-c4dc-4d93-b831-2ee1ff4533c7",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_ship_parent",
+    "name": "o_ui",
     "eventList": [
         {
-            "id": "320fe771-a52d-43cd-a823-830ce4dc30a3",
+            "id": "04280208-10d7-4954-b9c0-79fe935d07f8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 3,
-            "m_owner": "1cd6f0c2-47b2-4c13-aef7-f7a307faf404"
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "0955274e-c4dc-4d93-b831-2ee1ff4533c7"
         },
         {
-            "id": "87fae2c2-be06-414e-9339-00982fd03258",
+            "id": "914d20fe-2a75-44a7-8803-5309d9ba8f10",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "1cd6f0c2-47b2-4c13-aef7-f7a307faf404"
-        },
-        {
-            "id": "335842f0-776b-48e3-adfb-04091c0b3bdf",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "1cd6f0c2-47b2-4c13-aef7-f7a307faf404",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "1cd6f0c2-47b2-4c13-aef7-f7a307faf404"
-        },
-        {
-            "id": "872cbd10-18a0-4d47-9069-4faafe90bd3b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "94ef5a48-a979-4dd1-b056-2aaa14251cc0",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "1cd6f0c2-47b2-4c13-aef7-f7a307faf404"
+            "eventtype": 0,
+            "m_owner": "0955274e-c4dc-4d93-b831-2ee1ff4533c7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -63,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "fa85c71f-b076-4ef4-905b-332033fd210d",
+            "id": "d7edd76c-5273-459a-9ed3-6afc124f5712",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -72,12 +52,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "prize",
+            "value": "8",
+            "varName": "armor_x",
             "varType": 1
         },
         {
-            "id": "1dadf65b-c587-40d1-9748-4832c2d4e63e",
+            "id": "435a7f1d-151b-4990-b7f8-d056b7aa2769",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -86,12 +66,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
-            "varName": "armor",
+            "value": "8",
+            "varName": "armor_y",
             "varType": 1
         },
         {
-            "id": "f7679026-9c7d-4efa-bd08-6c5f19d97eb2",
+            "id": "d0d5421f-eccb-4164-8346-1f90c9f30bc3",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -100,12 +80,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
-            "varName": "max_speed",
-            "varType": 1
+            "value": "sprite_get_width(s_score);",
+            "varName": "score_sprite_width",
+            "varType": 4
         },
         {
-            "id": "cddb38f2-8f48-4444-8cdc-661cda843ce6",
+            "id": "f7e49692-82f0-4f84-84ce-16184bdcf23f",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -114,9 +94,23 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.1",
-            "varName": "acceleration",
-            "varType": 0
+            "value": "room_width - score_sprite_width - 8;",
+            "varName": "score_x",
+            "varType": 4
+        },
+        {
+            "id": "2a36b02c-658f-4704-a77a-6a51c475875d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "8",
+            "varName": "score_y",
+            "varType": 1
         }
     ],
     "solid": false,

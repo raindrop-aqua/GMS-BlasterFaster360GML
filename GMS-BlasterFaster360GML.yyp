@@ -77,6 +77,25 @@
             }
         },
         {
+            "Key": "0955274e-c4dc-4d93-b831-2ee1ff4533c7",
+            "Value": {
+                "id": "d4d1224e-226b-4cfd-9b9a-1d1ae4eb2fa2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_ui\/o_ui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b21c68e-7ee3-4ac0-be33-02e66b8bab04",
             "Value": {
                 "id": "68febdb4-2e16-4830-a7ba-76dc0fe09394",
@@ -359,6 +378,25 @@
                 ],
                 "resourcePath": "views\/3fd2eb0a-44cf-471c-8d90-7b85bed91c86.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "41e7ed03-4a47-462b-88ac-a83661d75fc5",
+            "Value": {
+                "id": "ddd28f45-f96e-4956-8d2a-3cacdc824082",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/f_one\/f_one.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -989,6 +1027,25 @@
             }
         },
         {
+            "Key": "f39e7c47-5ccd-4931-8bc2-e75c75292f09",
+            "Value": {
+                "id": "1b5a560e-d67f-4a7d-8354-51db831ae053",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/hit_enemy\/hit_enemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "557893f5-f75c-4dda-9135-45e1c339cb07",
@@ -1091,7 +1148,8 @@
         "3f27e3d3-91f2-4abb-bc80-72ebc24f9c70",
         "4a6d2794-82a5-4987-95a4-a1fee991b446",
         "dc0a44b0-7304-446b-80e4-77d6a15a5450",
-        "a54bc416-b494-44db-878a-aa5336db1864"
+        "a54bc416-b494-44db-878a-aa5336db1864",
+        "f39e7c47-5ccd-4931-8bc2-e75c75292f09"
     ],
     "tutorial": ""
 }
