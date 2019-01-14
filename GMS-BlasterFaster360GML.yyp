@@ -115,6 +115,25 @@
             }
         },
         {
+            "Key": "0f9ca1bb-3c29-4131-9c66-9447ed075faf",
+            "Value": {
+                "id": "b21dc448-c4bd-4706-af65-2f52937e09cb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_enemy_laser\/o_enemy_laser.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "11083959-b49b-4c82-8f52-1d27e45d6f58",
             "Value": {
                 "id": "66098dfe-01d1-4c46-b7c8-2d9a1a0ee2bd",
@@ -685,6 +704,25 @@
             }
         },
         {
+            "Key": "a54bc416-b494-44db-878a-aa5336db1864",
+            "Value": {
+                "id": "6160a47b-7846-48b1-9c08-4a4ca18fffd4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/move_towards_player\/move_towards_player.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a6522a46-bc2c-4a4c-b73b-c3da30ad4e56",
             "Value": {
                 "id": "ff338993-acde-44a4-a8fb-fffcd066ff8d",
@@ -875,6 +913,25 @@
             }
         },
         {
+            "Key": "df37be3a-1f79-495f-8e4d-71799abb1df3",
+            "Value": {
+                "id": "43258d35-95c3-4dc0-8522-14ea7d200770",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_enemy_ship_two\/o_enemy_ship_two.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "df90566c-731f-47cc-befb-ca7db5f8f3a7",
             "Value": {
                 "id": "8673004d-4073-487f-8510-18f9ddb16d99",
@@ -1033,7 +1090,8 @@
         "1b086dcf-bb4c-42b4-89db-d07577449750",
         "3f27e3d3-91f2-4abb-bc80-72ebc24f9c70",
         "4a6d2794-82a5-4987-95a4-a1fee991b446",
-        "dc0a44b0-7304-446b-80e4-77d6a15a5450"
+        "dc0a44b0-7304-446b-80e4-77d6a15a5450",
+        "a54bc416-b494-44db-878a-aa5336db1864"
     ],
     "tutorial": ""
 }

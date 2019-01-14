@@ -23,16 +23,6 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "47d93f4c-d17f-4b5c-909a-b251a614793e"
-        },
-        {
-            "id": "2f5c700e-458c-4adb-9f38-62e5454c86f9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "47d93f4c-d17f-4b5c-909a-b251a614793e",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "47d93f4c-d17f-4b5c-909a-b251a614793e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -52,34 +42,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "627593fc-e2d9-42ad-8aa7-7a99bae65cab",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1",
-            "varName": "max_speed",
-            "varType": 1
-        },
-        {
-            "id": "68fade25-b96c-4fde-8c0c-11e3a8d68a69",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0.1",
-            "varName": "acceleration",
-            "varType": 0
-        }
+        
     ],
     "solid": false,
     "spriteId": "b370fc6d-780d-47fa-9f8d-c3892e1376bf",

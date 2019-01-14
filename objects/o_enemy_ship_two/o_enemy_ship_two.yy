@@ -1,63 +1,47 @@
 {
-    "id": "94ef5a48-a979-4dd1-b056-2aaa14251cc0",
+    "id": "df37be3a-1f79-495f-8e4d-71799abb1df3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_player_ship",
+    "name": "o_enemy_ship_two",
     "eventList": [
         {
-            "id": "a63272d6-827e-4f09-b83e-e7f3f23050f0",
+            "id": "8fb30dad-c216-45a5-8193-ba6205860b43",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "94ef5a48-a979-4dd1-b056-2aaa14251cc0"
+            "m_owner": "df37be3a-1f79-495f-8e4d-71799abb1df3"
         },
         {
-            "id": "bf13bc66-e493-4922-8c97-cdb2b89f6545",
+            "id": "1b0036b0-9ebd-4310-85c1-280c7324023d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 3,
-            "m_owner": "94ef5a48-a979-4dd1-b056-2aaa14251cc0"
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "df37be3a-1f79-495f-8e4d-71799abb1df3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "14e66673-6900-4d23-a898-c61e08cb0f5c",
+            "id": "d735af2a-175e-44ab-8cee-2f8f4d4e2095",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "1cd6f0c2-47b2-4c13-aef7-f7a307faf404",
             "propertyId": "fa85c71f-b076-4ef4-905b-332033fd210d",
-            "value": "4"
+            "value": "3"
         },
         {
-            "id": "363f76bc-7045-4beb-91d5-13d5df8e9b92",
+            "id": "5587a82d-f5e7-48cf-b4d7-9e9c36b5a929",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "1cd6f0c2-47b2-4c13-aef7-f7a307faf404",
             "propertyId": "1dadf65b-c587-40d1-9748-4832c2d4e63e",
-            "value": "4"
-        },
-        {
-            "id": "1872d9f8-13b6-4512-a5e9-d106f61a6c44",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "1cd6f0c2-47b2-4c13-aef7-f7a307faf404",
-            "propertyId": "f7679026-9c7d-4efa-bd08-6c5f19d97eb2",
-            "value": "4"
-        },
-        {
-            "id": "cc828ce3-6cef-4e5e-b5f2-b463165f7446",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "1cd6f0c2-47b2-4c13-aef7-f7a307faf404",
-            "propertyId": "cddb38f2-8f48-4444-8cdc-661cda843ce6",
-            "value": "0.2"
+            "value": "3"
         }
     ],
     "parentObjectId": "1cd6f0c2-47b2-4c13-aef7-f7a307faf404",
@@ -76,7 +60,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "21abfa79-6be1-47bd-9e87-d37e2f17eeb1",
+            "id": "1fc181c7-092f-464d-943d-17a68a9d0789",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -85,12 +69,40 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.05",
-            "varName": "friction_amount",
-            "varType": 0
+            "value": "320",
+            "varName": "attack_range",
+            "varType": 1
+        },
+        {
+            "id": "8c9b18a7-79a8-4f5d-beb1-2fb41085507c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "60",
+            "varName": "fire_rate",
+            "varType": 1
+        },
+        {
+            "id": "4c8489cb-0fe5-4b72-a056-43efa04e25d5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "fire_rate",
+            "varName": "alarm[0]",
+            "varType": 4
         }
     ],
     "solid": false,
-    "spriteId": "5f8d2427-a6d6-4691-9aa2-16eadb883ade",
+    "spriteId": "274897e7-0e80-4a43-9e0d-e770164f194b",
     "visible": true
 }
