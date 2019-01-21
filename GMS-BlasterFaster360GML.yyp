@@ -476,6 +476,25 @@
             }
         },
         {
+            "Key": "4b64de33-6042-4f72-b17c-7e76e08984e1",
+            "Value": {
+                "id": "b4bffa77-8384-4737-938b-e3a21f34d666",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_button\/o_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4c210148-8de5-4044-b4a4-5ee226f30609",
             "Value": {
                 "id": "5e02d52a-3d12-42be-81cf-483edceaef75",
@@ -723,6 +742,25 @@
             }
         },
         {
+            "Key": "9497b393-c739-4d13-b9f3-81890b5a5618",
+            "Value": {
+                "id": "a592fd21-96b3-4e1a-bcdb-b2d6ccd39d0e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_timer\/o_timer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "94ef5a48-a979-4dd1-b056-2aaa14251cc0",
             "Value": {
                 "id": "076ba0e0-2694-4e11-9a9a-59609869cbac",
@@ -739,6 +777,25 @@
                 ],
                 "resourcePath": "objects\/o_player_ship\/o_player_ship.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a1781c4a-7fcd-468d-a219-10bd93910525",
+            "Value": {
+                "id": "55eb1a4c-799b-403b-b934-44c1567f6ae2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/quit_button\/quit_button.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -929,6 +986,25 @@
                 ],
                 "resourcePath": "views\/d6d265e4-fba5-4805-8a2d-aa9252a18363.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d9323291-9418-47bf-8cc5-758fa439227a",
+            "Value": {
+                "id": "04807eb7-45d3-438e-9f99-dcd62732203c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/start_button\/start_button.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1160,6 +1236,25 @@
             }
         },
         {
+            "Key": "fdb063b3-9905-4e09-b4f4-1037d965c2fb",
+            "Value": {
+                "id": "1f69144b-6eaf-4248-826e-5aef0de74c1b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_menu\/r_menu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "fefe3abe-5f8c-4ccc-a38c-114ac8b97520",
             "Value": {
                 "id": "39c5aaf3-99fc-478f-a7e0-a7ebeb2088a7",
@@ -1188,7 +1283,9 @@
         "dc0a44b0-7304-446b-80e4-77d6a15a5450",
         "a54bc416-b494-44db-878a-aa5336db1864",
         "f39e7c47-5ccd-4931-8bc2-e75c75292f09",
-        "b822ef50-6d51-44df-b6df-a3273be0f34e"
+        "b822ef50-6d51-44df-b6df-a3273be0f34e",
+        "d9323291-9418-47bf-8cc5-758fa439227a",
+        "a1781c4a-7fcd-468d-a219-10bd93910525"
     ],
     "tutorial": ""
 }
