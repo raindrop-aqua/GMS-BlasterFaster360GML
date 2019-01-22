@@ -3,3 +3,4 @@ repeat(16) {
 }
 
 audio_play_sound(a_explode, 4, false);
+instance_create_layer(x, y, "Instances", o_screenshake);

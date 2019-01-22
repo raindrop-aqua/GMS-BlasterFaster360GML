@@ -756,7 +756,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/o_timer\/o_timer.yy",
+                "resourcePath": "objects\/o_death_timer\/o_death_timer.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -834,6 +834,25 @@
                 ],
                 "resourcePath": "views\/a6522a46-bc2c-4a4c-b73b-c3da30ad4e56.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aa77df05-fb94-40f8-aff8-a5e3c8918792",
+            "Value": {
+                "id": "c38ecc4b-7e1a-4769-a1cb-8a9086f4817d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_screenshake\/o_screenshake.yy",
+                "resourceType": "GMObject"
             }
         },
         {
